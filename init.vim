@@ -52,6 +52,8 @@ Plug 'tpope/vim-rhubarb' " required by fugitive to :GBrowse
 Plug 'tomasr/molokai'
 
 
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
+
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 else
